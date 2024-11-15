@@ -2,11 +2,13 @@
 Country Info App is a full-stack application that provides detailed information about countries, including population statistics, flags, and general data. It uses a React frontend and a Node.js/Express backend to deliver a seamless user experience.
 
 ## 🔧 Technologies Used
-Frontend: React, Axios
-Backend: Node.js, Express, dotenv
-APIs:
-Nager.Date API for country data
-CountriesNow API for population and flag data
+- Frontend: React, Axios
+
+- Backend: Node.js, Express, dotenv
+
+- APIs:
+   - Nager.Date API for country data
+   - CountriesNow API for population and flag data
 
 ## 📂 Environment Variables Setup
 To properly run this project, you need to configure environment variables for both the frontend and backend. Follow these steps to set them up:
