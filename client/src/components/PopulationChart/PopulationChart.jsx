@@ -1,16 +1,35 @@
 import { Line } from 'react-chartjs-2';
-import { Chart, CategoryScale, LinearScale, LineElement, PointElement, LineController, Title, Tooltip, Legend } from 'chart.js';
+import {
+  Chart,
+  CategoryScale,
+  LinearScale,
+  LineElement,
+  PointElement,
+  LineController,
+  Title,
+  Tooltip,
+  Legend,
+} from 'chart.js';
 
 // Record the scales and elements needed for the line graph
-Chart.register(CategoryScale, LinearScale, LineElement, PointElement, LineController, Title, Tooltip, Legend);
+Chart.register(
+  CategoryScale,
+  LinearScale,
+  LineElement,
+  PointElement,
+  LineController,
+  Title,
+  Tooltip,
+  Legend
+);
 
 export default function PopulationChart({ data }) {
   const chartData = {
-    labels: data.map(entry => entry.year),
+    labels: data.map((entry) => entry.year),
     datasets: [
       {
         label: 'Population',
-        data: data.map(entry => entry.population),
+        data: data.map((entry) => entry.population),
         borderColor: 'rgba(75,192,192,1)',
         fill: false,
       },

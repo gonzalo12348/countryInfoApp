@@ -1,3 +1,3 @@
-import PopulationChart from "./PopulationChart";
+import PopulationChart from './PopulationChart';
 
-export default PopulationChart
+export default PopulationChart;

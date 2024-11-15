@@ -1,3 +1,3 @@
-const { default: CountryInfo } = require("./country");
+const { default: CountryInfo } = require('./country');
 
-export default CountryInfo
+export default CountryInfo;

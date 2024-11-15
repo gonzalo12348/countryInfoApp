@@ -1,3 +1,3 @@
-import Countries from "./countries";
+import Countries from './countries';
 
-export default Countries
+export default Countries;
