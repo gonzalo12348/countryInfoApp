@@ -1,0 +1,122 @@
+/* Style for the back-to-list link */
+.back-to-list-link {
+    font-size: 1.2rem;
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.back-to-list-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Main container for country information */
+.country-info-container {
+    font-family: Arial, sans-serif;
+    background-color: #f9fafb; /* Light grey background */
+    padding-top: 0px !important;
+    padding: 20px;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Main title */
+.country-name {
+    font-size: 2.5rem;
+    color: #4CAF50; /* Bright green */
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/* Flag image */
+.country-flag {
+    display: block;
+    margin: 20px auto;
+    width: 150px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Subtitle for sections */
+h2 {
+    font-size: 1.8rem;
+    color: #007BFF; /* Vibrant blue */
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* List of bordering countries */
+.borders-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.border-country-item {
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.border-country-item:hover {
+    cursor: pointer;
+    background-color: #e8f5e9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.border-country-link {
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.border-country-link:hover {
+    color: #0288d1; /* Dark blue on hover */
+}
+
+/* Container for the population chart */
+.population-chart-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    padding-inline: 32px;
+    padding-bottom: 16px;
+}
+
+.loading-message {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #999;
+    margin-top: 50px;
+    font-style: italic;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .country-name {
+        font-size: 2rem;
+    }
+
+    .country-flag {
+        width: 120px;
+    }
+
+    .borders-list {
+        flex-direction: column;
+    }
+
+    .border-country-item {
+        width: 90%;
+    }
+}
