@@ -101,7 +101,13 @@ The frontend will run on http://localhost:3000 (by default).
 
 Once both servers are running, you should be able to access the application by navigating to http://localhost:3000 in your browser.
 
-## 📚 Additional Information
+## 📚 Additional Information:
 
 The frontend communicates with the backend using the API URLs specified in the .env file.
 Make sure both servers (frontend and backend) are running simultaneously to have a fully working app.
+
+✨ Mejora de Calidad de Código
+
+Para garantizar un código limpio y bien estructurado, el proyecto incluye:
+ESLint: Detecta errores y asegura que el código siga buenas prácticas.
+Prettier: Formatea el código automáticamente según un estándar consistente.
