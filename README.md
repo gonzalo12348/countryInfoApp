@@ -106,8 +106,9 @@ Once both servers are running, you should be able to access the application by n
 The frontend communicates with the backend using the API URLs specified in the .env file.
 Make sure both servers (frontend and backend) are running simultaneously to have a fully working app.
 
-✨ Mejora de Calidad de Código
+✨ Code Quality Improvement
 
-Para garantizar un código limpio y bien estructurado, el proyecto incluye:
-ESLint: Detecta errores y asegura que el código siga buenas prácticas.
-Prettier: Formatea el código automáticamente según un estándar consistente.
+To ensure clean and well-structured code, the project includes: 
+   
+   ESLint: Detects errors and ensures code follows good practices. 
+   Prettier: Automatically formats code to a consistent standard.
