@@ -103,12 +103,26 @@ Once both servers are running, you should be able to access the application by n
 
 ## 📚 Additional Information:
 
-The frontend communicates with the backend using the API URLs specified in the .env file.
-Make sure both servers (frontend and backend) are running simultaneously to have a fully working app.
+1. Documentation of APIs Used:
 
-✨ Code Quality Improvement
+Nager.Date API: For general country data such as names and borders.
+CountriesNow API: For historical population data and flags.
 
-To ensure clean and well-structured code, the project includes: 
-   
-   ESLint: Detects errors and ensures code follows good practices. 
-   Prettier: Automatically formats code to a consistent standard.
+2. Project Structure:
+
+Frontend (client/): Contains the React client code.
+Backend (api/): Contains the Express server code.
+Directories are separated for easy development and deployment.
+
+3. Code Quality:
+
+Tools such as ESLint and Prettier were implemented to ensure that the code is consistent and follows good practices.
+Before each commit, files were reviewed and formatted correctly.
+
+4. Project Purpose:
+
+This project was undertaken as part of a technical challenge for a Full-Stack JS Engineer position. The challenge involved building a full-stack application within a 7-hour time limit, demonstrating both frontend and backend skills.
+
+6. Server Parallelism:
+
+The frontend and backend are designed to run simultaneously on different ports, allowing seamless communication and ensuring an efficient development experience.
